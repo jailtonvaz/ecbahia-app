@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+}  
+
+.example-tab-icon {
+    margin-right: 8px;
+}  
+
+.mat-sort-header-container {
+    align-items: center;
+}
+
+img {
+    position: relative;
+    margin: auto;
+    max-width: 5%;
+}

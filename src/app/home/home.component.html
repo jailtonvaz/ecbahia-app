@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+    <img src="https://upload.wikimedia.org/wikipedia/pt/9/90/ECBahia.png" alt="esporte clube bahia">
+    <span>Esporte Clube Bahia</span>
+    <span class="example-spacer"></span>
+</mat-toolbar>
+  
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">history</mat-icon>
+      História
+    </ng-template>
+    <spa-historia></spa-historia>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">stars</mat-icon>
+      Títulos
+    </ng-template>
+    <spa-titulos></spa-titulos>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label>
+      <mat-icon class="example-tab-icon">person</mat-icon>
+      Artilheiros
+    </ng-template>    
+    <spa-artilheiro></spa-artilheiro>
+  </mat-tab>
+</mat-tab-group>
